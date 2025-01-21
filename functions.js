@@ -33,17 +33,37 @@ let users = ["Navya","Vishnu","keshav","shiva","sai"]
 //   return (user);
 // });
 // console.log(x);
-var a = 10;
-let b = 30;
-function x(){
-  var user = "josh";
-  let company = "Google";
-  const sal = 1234567;
-  console.log(user);
-  console.log(company);
-  console.log(sal);
-  console.log(a,b);
+// var a = 10;
+// let b = 30;
+// function x(){
+//   var user = "josh";
+//   let company = "Google";
+//   const sal = 1234567;
+//   console.log(user);
+//   console.log(company);
+//   console.log(sal);
+//   console.log(a,b);
 
+// }
+// x();
+
+function x(){
+  var a = 10;
+  let b = 20;
+  console.log(a,b);
+  function y(){
+    let p = "Js";
+    let q = "React";
+    console.log(p,q);
+    function z(){
+      const username = "abc";
+      console.log(username);
+      console.log(a);
+      console.log(q);
+    }
+    z();
+  }
+  y();
 }
 x();
 
