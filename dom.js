@@ -1,27 +1,27 @@
 // !document.getElementById("");
 
-let element = document.getElementById("demo");
-element.innerText = "DOM";
-console.log(element);
+// let element = document.getElementById("demo");
+// element.innerText = "DOM";
+// console.log(element);
 
-let div = document.getElementById("test");
-// div.innerText = "<h1>Header</h1>"
-div.innerHTML = "<h1>Header</h1>"
-console.log(div);
+// let div = document.getElementById("test");
+// // div.innerText = "<h1>Header</h1>"
+// div.innerHTML = "<h1>Header</h1>"
+// console.log(div);
 
-let ele = document.getElementsByClassName("test");
-// console.log(ele);
-// console.log(Array.isArray(ele));
-ele[0].computedStyleMap.backgroundColor="yellow" 
-// ! spread operator : it is used to takeout each value from the original array
-//!synatx: [..variable]
+// let ele = document.getElementsByClassName("test");
+// // console.log(ele);
+// // console.log(Array.isArray(ele));
+// ele[0].computedStyleMap.backgroundColor="yellow" 
+// // ! spread operator : it is used to takeout each value from the original array
+// //!synatx: [..variable]
 
-let x = [...ele];
-console.log(x, Array.isArray(x));
-x.map((element)=>{
-    //console.log(element);
-    element.style.backgroundColor="teal";
-})
+// let x = [...ele];
+// console.log(x, Array.isArray(x));
+// x.map((element)=>{
+//     //console.log(element);
+//     element.style.backgroundColor="teal";
+// })
 
 // let ele = document.querySelector("#demo");
 //console.log(ele);
@@ -92,3 +92,13 @@ x.map((element)=>{
 //     console.log("key up");
 // })
 
+// //!
+// let bgColor = document.querySelectorAll(".bgColor");
+// [...bgColor].map((element)=>{
+//     element.addEventListener("mouseover",()=>{
+//         element.style.backgroundColorelement.innerText;
+//     });
+//     element.addEventListener("mouseleave",()=>{
+//         element.style.backgroundColor="transparent";
+//     })
+// })
